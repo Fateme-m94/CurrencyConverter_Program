@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Converter</title>
+    <link rel="icon" href="images/faviconConverter.ico">
+</head>
+<body>
+   
+  <div class="converter">
+    <h1>Currency Converter</h1>
+
+    <input type="number" id="amount" placeholder="Enter amount" value="50" />
+
+    <div class="selectors" style="overflow: auto;">
+      <select id="fromCurrency">
+        <option value="USD">USD</option>
+        <option value="EUR">EUR</option>
+        <option value="IRR">IRR</option>
+        <option value="GBP">GBP</option>
+        <option value="JPY">JPY</option>
+      </select>
+
+      <span> ➡ </span>
+      <select id="toCurrency">
+        <option value="USD">USD</option>
+        <option value="EUR">EUR</option>
+        <option value="IRR">IRR</option>
+        <option value="GBP">GBP</option>
+        <option value="JPY">JPY</option>
+      </select>
+    </div>
+   
+    <button id="convertBtn" onclick="convertCurrency()">Convert</button>
+
+    <p id="result"></p>
+  </div>
+
+  <script src="dist/script.js"></script>
+     
+</body>
+</html>
