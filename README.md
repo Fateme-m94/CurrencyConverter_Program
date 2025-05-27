@@ -16,4 +16,4 @@ CurrencyConverterProgram/
 └── images/ faviconConverter.ico (icon displayed in a browser's address bar or next to the site name) 
       └──/ preview.png (This is a preview or screenshot of my program)
 
-https://github.com/Fateme-m94/CurrencyConverter_Program/images/preview.png?raw=true
+![MyProgramScreenshot](https://github.com/Fateme-m94/CurrencyConverter_Program/blob/main/images/preview.png?raw=true)
