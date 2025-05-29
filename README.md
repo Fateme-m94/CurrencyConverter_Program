@@ -9,11 +9,15 @@ CurrencyConverterProgram/
 │
 ├── index.html
 ├── style.css
-├── src/ script.ts
-├── dist/ script.js (Compiled from TypeScript)
 ├── tsconfig.json
-├── .vscode/ launch.json
-└── images/ faviconConverter.ico (icon displayed in a browser's address bar or next to the site name) 
-      └──/ preview.png (This is a preview or screenshot of my program)
+├── .vscode/
+│   └── launch.json
+├── src/
+│   └── script.ts
+├── dist/
+│   └── script.js   # Compiled from TypeScript
+├── images/
+│   ├── faviconConverter.ico   # Icon for browser tab
+│   └── preview.png            # Screenshot/preview of the app
 
 ![MyProgramScreenshot](https://github.com/Fateme-m94/CurrencyConverter_Program/blob/main/images/preview.png?raw=true)
